@@ -1,0 +1,49 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    border-bottom: 1px solid rgb(22, 0, 43);
+}
+.head_contact {
+    display: flex;
+}
+.head_contact li {
+    margin-left: 20px;
+}
+.head_contact li a {
+    font-size: 18px;
+    font-weight: 500;
+}
+.head_contact li i {
+    font-size: 18px;
+    color: blueviolet;
+    padding-right: 2px;
+}
+.head_contact li a {
+    font-size: 18px;
+    color: rgb(22, 0, 43);
+    padding-right: 2px;
+    text-decoration: none;
+}
+.head_social {
+    display: flex;
+}
+.head_social li {
+    margin-right: 20px;
+}
+.head_social li i {
+    font-size: 25px;
+    color: blueviolet;
+}
+
+@media only screen and (max-width: 991px) {
+    .head {
+        padding: 10px 5px;
+    }
+    .head_contact {
+        flex-direction: column;
+    }
+    .head_none {
+        display: none;
+    }
+}
